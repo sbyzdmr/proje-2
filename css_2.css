@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/netflix_background.png);
+    color: white;
+}
+
+.container {}
+
+#header {
+    text-align: center;
+}
+
+#title {
+    font-size: 2.5rem;
+    font-family: "Bowlby One SC";
+}
+
+#span1 {
+    color: red;
+}
+
+#description {
+    font-family: "Sorts Mill Goudy", serif;
+}
+
+#survey-form-container {
+    width: 500px;
+    background-color: rgb(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+}
+
+.input-box {
+    margin-top: 10px;
+}
+
+#name,
+#age,
+#e-mail,
+#dropdown,
+#feedback {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+#form-button {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#form-button:hover {
+    background-color: white;
+    color: red;
+}
+
+.form-submit {
+    text-align: center;
+
+}
+
+textarea {
+    resize: none;
+}
+
+input[ type="checkbox"]
+
+   { accent-color: red;}
+
+
+
+input[ type="radio"]
+
+    {accent-color: rgb(205, 238, 21);}
+
+/* maddeleri işaretlediğimizde istediğim rengi vermemize yarıyor*/
